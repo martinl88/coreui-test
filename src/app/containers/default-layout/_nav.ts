@@ -3,7 +3,7 @@ import { INavData } from '@coreui/angular';
 export const navItems: INavData[] = [
   {
     name: 'Testiks',
-    url: '/testiks/edit',
+    url: '/testiks',
     iconComponent: { name: 'cil-star' },
     badge: {
       color: 'danger',
