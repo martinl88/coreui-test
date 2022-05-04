@@ -7,7 +7,7 @@ import { EditComponent } from './edit/edit.component';
 const routes: Routes = [
   {
     path: '',
-    component: TestiksComponent,
+    // component: TestiksComponent,
     data: {
       title: 'Testimiseks',
     },
@@ -16,16 +16,16 @@ const routes: Routes = [
         path: 'edit/:editID',
         component: EditComponent,
         data: {
-          title: 'Testiks Edit',
+          title: 'Testimiseks Edit',
         },
       },
-      // {
-      //   path: 'list',
-      //   component: TestiksComponent,
-      //   data: {
-      //     title: 'Testiks!!',
-      //   }
-      // }
+      {
+        path: '',
+        component: TestiksComponent,
+        data: {
+          title: 'Testimiseks',
+        }
+      }
     ]
   },
 ];
